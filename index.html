@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido a FastCreateWeb, el sitio perfecto para crear tu web en instantes para tu negocio o portafolio. Esperamos tu reserva!.">
+    <meta name="keywords" content="Crear paginas webs, FastCreateWeb, Sitios webs rapidos, Reserva de sitios webs, Landing pages, Pagina web, Sitio web">
+    <meta name="author" content="FastCreateWeb">
+    <link rel="stylesheet" href="styles.css">
+    <title>FastCreateWeb</title>
+</head>
+<body>
+    <header class="header" aria-label="Barra de navegacion">
+        <div class="logo">
+            FastCreateWeb
+        </div>
+
+        <div class="menu-btn" id="menuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li><a href="#hero" class="header__links">Inicio</a></li>
+                <li><a href="#services" class="header__links">Servicios</a></li>
+                <li><a href="#skills" class="header__links">Beneficios</a></li>
+                <li><a href="#testimonials" class="header__links">Testimonios</a></li>
+                <li><a href="#callToAction" class="header__links">Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero" aria-label="Interfaz principal - Presentacion">
+            <div class="hero__content">
+                <h1 class="hero__title">Creamos tu web en tiempo record</h1>
+                <p class="hero__subtitle">Sitios modernos, rapidos y listos para crecer tu negocio</p>
+                <a class="hero__btn-cta" href="#callToAction">Comenzar ahora</a>
+            </div>
+        </section>
+
+        <section class="services" id="services" aria-label="Interfaz de servicios">
+            <div class="services__content">
+                <h2 class="services__title">Servicios</h2>
+                <article class="services__article">
+                    <h3 class="services__article-title">Webs personales</h3>
+                    <img src="assets/images/web-personal.jpg" alt="Imagen de web personal">
+                    <p class="services__article-description">Presenta tus habilidades con un increible Sitio Web Personal</p>
+                </article>
+                <article class="services__article">
+                    <h3 class="services__article-title">Webs para negocios</h3>
+                    <img src="assets/images/imagen-de-web-para-negocio.jpg" alt="Imagen de web para negocios">
+                    <p class="services__article-description">Presenta tu negocio con un Sitio Web moderno y de confianza</p>
+                </article>
+                <article class="services__article">
+                    <h3 class="services__article-title">Tiendas Online Basicas</h3>
+                    <img src="assets/images/imagen-de-web-para-tienda-online.jpg" alt="Imagen de Web para tiendas online">
+                    <p class="services__article-description">Muestra tu tienda online con productos maravillosos y una web impecable</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="skills" id="skills" aria-label="Interfaz de beneficios de FastCreateWeb">
+            <div class="skills__content">
+                <h2 class="skills__title">Beneficios</h2>
+                <article class="skills__article">
+                    <p class="skills__article-title">Paginas adaptadas a cualquier dispositivo - Responsive Design</p>
+                </article>
+                <article class="skills__article">
+                    <p class="skills__article-title">Nuestro servicio es tan rapido que en horas tendras tu pagina web completa y lista para subir</p>
+                </article>
+                <article class="skills__article">
+                    <p class="skills__article-title">Ademas de ser rapidos en lo que hacemos, tenemos un precio demasiado accesible.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonials" aria-label="Interfaz de testimonios">
+            <div class="testimonials__content">
+                <h2 class="testimonials__title">Testimonios</h2>
+                <article class="testimonials__article">
+                    <h3 class="testimonials__article-title">Alex Garcia</h3>
+                    <p class="testimonials__article-description">Gracias a FastCreateWeb tuve mi web lista en una semana.</p>
+                    <p class="testimonials__article-calification">⭐​⭐​⭐​⭐​⭐​</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="call__to__action" id="callToAction" aria-label="Interfaz de reserva">
+            <div class="call__to__action-content">
+                <h2 class="call__to__action-title">Pide una reserva</h2>
+                <form action="#">
+                    <div class="input__group">
+                        <label for="nombreUsuario">Nombre</label>
+                        <input type="text" id="nombreUsuario" placeholder="Juan Carlos">
+                    </div>
+                    <div class="input__group">
+                        <label for="inputEmail">Correo electronico</label>
+                        <input type="email" id="inputEmail" placeholder="correo@correo">
+                    </div>
+                    <select name="project" id="project">
+                        <option value="Landing page">Landing page</option>
+                        <option value="Pagina web">Pagina web</option>
+                        <option value="Sitio web">Sitio web</option>
+                        <option value="Portafolio">Portafolio</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                    <textarea name="message" id="message" placeholder="Tu mensaje..."></textarea>
+                    <button type="submit">Enviar reserva</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
