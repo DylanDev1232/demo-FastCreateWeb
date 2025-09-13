@@ -257,8 +257,8 @@ body {
 }
 
 .services__article img {
-    width: 64px;
-    height: 64px;
+    width: 100px;
+    height: 100px;
     background: linear-gradient(135deg, var(--accent-blue), var(--secondary-gray));
     border-radius: var(--border-radius);
     margin: 0 auto 1.5rem;
